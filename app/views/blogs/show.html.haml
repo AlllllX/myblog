@@ -1,0 +1,10 @@
+%p#notice= notice
+
+%p
+  %b Title:
+  = @blog.title
+%p
+  %b Body:
+  = Haml::Engine.new(@blog.body).render
+
+= link_to 'Edit', edit_blog_path(@blog)

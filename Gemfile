@@ -8,6 +8,7 @@ gem 'rails', '3.2.0'
 gem 'sqlite3'
 gem 'haml-rails'
 gem 'coffee-filter'
+gem 'RedCloth'
 
 
 # Gems used only for assets and not required
